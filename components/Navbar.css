@@ -1,0 +1,19 @@
+.Navbar{
+
+    background-color: #EAEAEA; /*light-gray*/
+    height: 98px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    
+}
+.Navbar h1{
+    font-size: 36px;
+    line-height: 44px;
+    color: #0171AF; /*Primary*/  
+}
+.Navbar .logo{
+    display: flex;
+    gap: 15px;
+
+}

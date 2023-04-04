@@ -1,17 +1,47 @@
 import CouserCard from "../components/CourseCard";
+import CourseList from "../components/CourseList";
+
+const listaDeCursos = [
+  {
+    id: 635,
+    imageUrl: "/logo.png",  
+    name: "React Js",
+    category: "front-end",
+    description:"Curso sobre react Js",
+    duration : 6
+  },
+  {
+    id: 873,
+    imageUrl: "/logo.png",  
+    name: "React com Ts",
+    category: "front-end",
+    description:"Curso sobre react com Ts",
+    duration : 6
+  },
+  {
+    id: 935,
+    imageUrl: "/logo.png",  
+    name: "React Router",
+    category: "front-end",
+    description:"Curso sobre react com Ts",
+    duration : 6
+  },
+  {
+    id: 333,
+    imageUrl: "/logo.png",  
+    name: "Context API",
+    category: "front-end",
+    description:"Curso sobre react com Ts",
+    duration : 6
+  }
+
+];
 
 function HomePage() {
 
   return (
     <div className="homepage">
-      <CouserCard
-        imageUrl= "/logo.png"  
-        name = "React Js"
-        category= "front-end"
-        description="Curso sobre react Js"
-        duration = {6}
-      />
-
+      <CourseList list={listaDeCursos}/>
     </div>
   )
 }

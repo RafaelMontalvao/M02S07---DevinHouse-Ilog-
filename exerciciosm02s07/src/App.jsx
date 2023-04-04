@@ -1,9 +1,18 @@
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+import HomePage from "./pages/HomePage"
+
+
 function App() {
   return (
-    <div className="App">
-      <h1>DevinCursos</h1>
-    </div>
+    <>
+      <Navbar />
+      <main id="pageContainer">
+        <HomePage />  
+      </main>
+      <Footer />
+    </>
   )
 }
 
-export default App
+export default App;

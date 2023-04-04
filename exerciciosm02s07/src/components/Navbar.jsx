@@ -2,12 +2,12 @@ import "./Navbar.css"
 
 function Navbar() {
     return (
-      <header className="Navbar">
-        <div className="logo">
-          <img src="/logo.png" alt="Logo" />
-          <h1>DEVINCursos</h1>
-        </div>
-      </header>
+      <header className="navbarContainer">
+      <div className="navbarLogoBox">
+        <img src="/logo.png" alt="Logo" />
+        <h1>DEVinCursos</h1>
+      </div>
+    </header>
     )
   }
   

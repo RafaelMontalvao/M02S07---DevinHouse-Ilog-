@@ -1,5 +1,6 @@
-import CouserCard from "../components/CourseCard";
+import CourseFilter from "../components/CourseFilter";
 import CourseList from "../components/CourseList";
+import "./HomePage.css"
 
 const listaDeCursos = [
   {
@@ -40,7 +41,8 @@ const listaDeCursos = [
 function HomePage() {
 
   return (
-    <div className="homepage">
+    <div className="homePageContainer">
+      <CourseFilter/>
       <CourseList list={listaDeCursos}/>
     </div>
   )

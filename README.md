@@ -1,2 +1,4 @@
-# M02S07---DevinHouse-Ilog-
-repositorio  semana 07 do segundo mondulo Front End - Iniciando o Uso de React
+- o projeto se trata de um app de cursos onde podemos cadastrar atraves de um login autorizado.
+- tecnologia utilizada React JS.
+
+- npm run dev 
